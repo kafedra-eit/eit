@@ -158,11 +158,13 @@
 			margin: 50
 			}).trigger('refresh.owl.carousel');
 
-			if(document.URL.indexOf("#")==-1) {
-				url = document.URL+"#";
-				location = "#";
-				location.reload(true);
-			}
+			setTimeout(function() {
+				if(document.URL.indexOf("#")==-1) {
+					url = document.URL+"#";
+					location = "#";
+					location.reload(true);
+				}
+			}, 4000)
 		})
 	</script>
 </body>

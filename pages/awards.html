@@ -157,7 +157,12 @@
 			dots: true,
 			margin: 50
 			}).trigger('refresh.owl.carousel');
-			location.reload();
+
+			if(document.URL.indexOf("#")==-1) {
+				url = document.URL+"#";
+				location = "#";
+				location.reload(true);
+			}
 		})
 	</script>
 </body>

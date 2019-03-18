@@ -347,7 +347,7 @@ button.owl-dot:nth-child(1).active,  .history button.owl-dot:nth-child(2).active
 	margin: 0 auto;
 	margin: 0 125px;
 	max-width: 900px;
-	margin-top: 95px;
+	margin-top: 14px;
 	min-height: 370px;
 }
 
@@ -373,7 +373,7 @@ button.owl-dot:nth-child(1).active,  .history button.owl-dot:nth-child(2).active
 .h-title-img {
 	position: absolute;
 	padding: 0 100px;
-	margin-top: 15px;
+	margin-top: -66px;
 }
 
 .awards {

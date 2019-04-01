@@ -390,7 +390,7 @@ button.owl-dot:nth-child(1).active,  .history button.owl-dot:nth-child(2).active
 
 .aw-bottom a {
 	position: absolute;
-	bottom: 7px;
+	bottom: -14px;
 	left: 0;
 	width: 280px;
 	height: 100px;

@@ -257,11 +257,11 @@ body {
 }
 
 .staff-page.page5 .left-line-thin{
-	border-left: #63798d 2px solid;
+	border-left: #2770b4 2px solid;
 }
 
 .staff-page.page5 .accent-color {
-	color: #63798d;
+	color: #2770b4;
 }
 
 
@@ -312,7 +312,7 @@ body {
 }
 
 .staff button.owl-dot:nth-child(5).active {
-	background: #63798d;
+	background: #2770b4;
 }
 
 
@@ -440,4 +440,21 @@ button.owl-dot:nth-child(1).active,  .history button.owl-dot:nth-child(2).active
 
 .aw-left-wrapper .owl-dots .owl-dot {
 	margin-right: 10px;
+}
+
+.enr-links {
+	position: relative;
+}
+
+.enr-links a {
+	display: block;
+	position: absolute;
+	width: 250px;
+	height: 100px;
+	top: -180px;
+	left: 235px;
+}
+
+.enr-links a.link2 {
+	left: 600px;
 }

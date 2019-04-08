@@ -316,7 +316,7 @@ body {
 }
 
 
-button.owl-dot:nth-child(1).active,  .history button.owl-dot:nth-child(2).active, .history button.owl-dot:nth-child(3).active, .awards button.owl-dot.active{
+button.owl-dot:nth-child(1).active,  .history button.owl-dot:nth-child(2).active, .history button.owl-dot:nth-child(3).active, .history button.owl-dot:nth-child(4).active, .awards button.owl-dot.active{
 	background: var(--accent-color);
 }
 
